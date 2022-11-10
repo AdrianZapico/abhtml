@@ -1,0 +1,534 @@
+header {
+
+    background-color:rgba(19, 0, 0 );
+    padding: 20px 0;
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+
+    right: 0;
+
+}
+
+.box {
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+
+
+}
+
+nav a:hover {
+    color: #de7055;
+    font-size: 30px;
+    transition: all ease 0.3s;
+    /*text-decoration: underline;*/
+}
+
+nav a {
+
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+.home {
+
+    width: 940px;
+    margin: 10px auto;
+    padding: 50px 130px;
+    border: 2px solid rgba(19, 0, 0 ) ;
+
+
+}
+.list2{
+
+    padding-top: 20px;
+
+}
+.home h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(19, 0, 0 );
+
+}
+
+.home-description {
+
+    font-size: 18px;
+    color:rgba(19, 0, 0 );
+
+}
+
+.home-money  {
+
+    
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgba(19, 0, 0 );
+}
+
+.home-money a  {
+
+ text-decoration: none;
+ color: rgba(19, 0, 0 );
+}
+
+.home-money:hover a {
+    
+    color: whitesmoke;
+    font-size: 30px;
+    transition: all ease 0.3s; 
+
+}
+.home li {
+
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-width: 2px ;
+    border-style:solid ; */
+    border: 2px solid rgba(19, 0, 0 );
+    border-radius: 10px;
+    transition: all ease 0.8s;   
+
+}
+
+#bgFacebook:hover{
+    
+    background-color:  rgb(66 103 178);
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+#bgTwitter:hover{
+    
+    background-color:  #00acee;
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+#bgPinterest:hover{
+    
+    background-color: #E60023;
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+#bgYoutube:hover{
+    
+    background-color: #FF0000;
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+#bgLinkedin:hover{
+    
+    background-color: #0e76a8;
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+#bgWpp:hover{
+    
+    background-color: #25D366;
+    border-color: rgba(19, 0, 0 );
+    transform: scale(1);
+   
+}
+
+.home li:active{
+    
+    border-color: #c53e1c;
+    
+}
+
+.home li:hover h2{
+    
+
+font-size: 32px;
+
+    
+}
+
+
+footer{
+    text-align: center;
+  
+    padding: 40px 0;
+}
+
+
+.footerText{
+
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+Edit in JSFiddle
+Result
+HTML
+CSS
+Resources
+/*********footer*******************/
+.kilimanjaro_area {
+    position: relative;
+    z-index: 1;
+	}
+	.foo_top_header_one {
+    background-color: rgba(19, 0, 0 );
+    color: #fff;
+}
+.section_padding_100_70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.foo_top_header_one {
+    color: #fff;
+}.kilimanjaro_part {
+    margin-bottom: 30px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p {
+    color: rgba(255,255,255,.5);
+    transition: ease-in-out 0.8s;
+
+    
+}
+.kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p:hover {
+    
+
+   
+    font-size: 23px;
+    
+    
+}
+
+
+p, ul li, ol li {
+    font-weight: 300;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_bottom_header_one {
+    background-color: #111;
+}
+.section_padding_50 {
+    padding: 50px 0;
+}
+.kilimanjaro_bottom_header_one p {
+    color: #fff;
+    margin: 0;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_bottom_header_one a {
+    color: inherit;
+    font-size: 14px;
+}
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+.m-top-15 {
+    margin-top: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.kilimanjaro_widget > li {
+    display: inline-block;
+    
+}
+.kilimanjaro_widget a {
+
+    transition: ease-in-out 0.8s;
+    
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+ol li, ul li {
+    list-style: outside none none;
+}
+.kilimanjaro_widget a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 4px;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_links a {
+    border-bottom: 1px solid #333;
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.kilimanjaro_links a {
+    color: rgba(220, 205, 205, 0.5);
+    font-size: 13px;
+}
+top-15 {
+    margin-top: 15px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_social_links > li {
+    display: inline-block;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_social_links a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+    text-decoration: none;
+    transition: ease-in-out 0.8s;
+    
+}
+#facebook:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:rgb(66 103 178);
+   
+    
+}
+#twiter:hover{
+    border: none;
+    border-radius: 3px;
+    color:rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:#00acee ;
+   
+}
+#pinterest:hover{
+    border: none;
+    border-radius: 3px;
+    color:rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color: #E60023;
+    
+}
+#youtube:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color: #FF0000;
+   
+}
+#linkedin:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color: #0e76a8 ;
+   
+}
+#wpp:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(248, 236, 236);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:#25D366 ;
+   
+}
+#blog:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(12, 6, 6);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:#d1e6d9 ;
+   
+}
+#creative:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(12, 6, 6);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:#d1e6d9 ;
+   
+}
+#onepage:hover{
+    border: none;
+    border-radius: 3px;
+    color: rgb(12, 6, 6);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:#d1e6d9 ;
+   
+}
+.kilimanjaro_blog_area .kilimanjaro_date {
+    color: #27ae60;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.kilimanjaro_blog_area > p {
+    color: rgba(255,255,255,.5);
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.kilimanjaro_works > a {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 33.33333333%;
+    z-index: 1;
+}
+.kilimanjaro_thumb {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+}
+.kilimanjaro_links a i {
+    padding-right: 10px;
+   
+}
+  /* :: 18.0 Footer Area CSS */
+
+    .footer_area {
+        position: relative;
+        z-index: 1;
+    }
+ .footer_bottom p > i,
+    .footer_bottom p > a:hover {
+        color: #27ae60;
+    }	
+
+    .social_links_area {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 50px 0 30px 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+ .social_links_area > a:hover {
+        color: #27ae60;
+    }
+
+    .inline-style .social_links_area > a:hover {
+        background-color: transparent;
+        color: #27ae60;
+        border: 0px solid transparent;
+    }
+ .single_feature:hover .feature_text h4 {
+        color: #27ae60;
+    }
+.kilimanjaro_blog_area {
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 0 0 15px 90px;
+    position: relative;
+    z-index: 1;
+}
+.kilimanjaro_links a {
+    border-bottom: 1px solid #333;
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: all ease 0.8s;
+}
+.kilimanjaro_links a:hover {
+    border-bottom: 1px solid #333;
+    color: whitesmoke;
+    display: block;
+    font-size: 23px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+}
+
+
+.hoverFont:hover{
+   
+
+    color: whitesmoke;
+  font-size: 30px;
+    
+}
