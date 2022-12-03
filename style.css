@@ -51,7 +51,7 @@ nav a {
     margin: 10px auto;
     padding: 50px 130px;
     border: 2px solid rgba(19, 0, 0 ) ;
-
+    background-color: rgba(19, 0, 0 ) ;
 
 }
 
@@ -112,9 +112,9 @@ nav a {
 
 .home li:hover{
     
-    background-color:  #b4b3ae;
+    background-color: whitesmoke;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
     transition: all ease 0.8s;   
 }
 
@@ -321,7 +321,7 @@ p, ul li, ol li {
     background-color:#00acee ;
    
 }
-#pinterest:hover{
+#github:hover{
     border: none;
     border-radius: 3px;
     color:rgb(248, 236, 236);
@@ -329,7 +329,7 @@ p, ul li, ol li {
     font-size: 26px;
     margin-bottom: 1px;
     padding: 7px 12px;
-    background-color: #E60023;
+    background-color:#333;
     
 }
 #youtube:hover{
@@ -495,13 +495,13 @@ p, ul li, ol li {
 
 
 #spin {
-    height: 40vmin;
+    height: 25vmin;
     pointer-events: none;
   }
   
   @media (prefers-reduced-motion: no-preference) {
     #spin {
-      animation: spin-spin infinite 20s linear;
+      animation: spin-spin infinite 15s linear;
     }
   }
   
@@ -511,7 +511,287 @@ p, ul li, ol li {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(300deg);
+      transform: rotate(360deg);
     }
   }
   
+  #spin-ul {
+    height: 5vmin;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    #spin-ul {
+      animation: spin-spin infinite 5s linear;
+    }
+  }
+  
+  
+  @keyframes spin-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  h5{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+    
+  h5{
+   font-size:medium;
+   font-family: serif;
+   color:whitesmoke;
+   text-align: center;
+   animation: animate 0.9s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+
+/*ul main*/
+
+#spin-ul-main {
+    height: 3vmin;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    #spin-ul-main {
+      animation: spin-spin infinite 5s linear;
+    }
+  }
+  
+  
+  @keyframes spin-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+ span{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+ }
+
+ span{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+    
+  span{
+   font-size:medium;
+   font-family: serif;
+   color:whitesmoke;
+   text-align: center;
+   animation: animate 2s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+
+ button{
+    background-color: transparent;
+    border: none;
+ }
+ #demo{
+
+    background-color: white;
+    color: rgba(19, 0, 0);
+    display: inline-block;
+    padding:  12px ;
+    font-family: Impact;
+    border-radius: 10px;
+    position: relative;
+ }
+
+
+ /* style profile*/
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: whitesmoke;
+}
+
+.title {
+  color: rgb(189, 176, 176);
+  font-size: 18px;
+  
+}
+
+#profile {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#name{
+  color: rgba(19, 0, 0 );
+}
+a  {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(19, 0, 0 );
+  
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+/* profile*/
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgb(253, 253, 253);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgba(19, 0, 0);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* scrolledPage*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #000;
+  display: block;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: whitesmoke;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: rgba(19, 0, 0);
+  width: 0%;
+}
+
+@media screen and (max-width:480px){
+
+body{
+  background-color: #00acee;
+}
+
+nav{
+  max-width: auto;
+}
+
+}
+
+#btnHide{
+
+  margin: auto;
+
+
+}
+

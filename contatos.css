@@ -52,6 +52,7 @@ nav a {
     margin: 10px auto;
     padding: 50px 130px;
     border: 2px solid rgba(19, 0, 0 ) ;
+    background-color: rgba(19, 0, 0 ) ;
 
 
 }
@@ -120,42 +121,42 @@ nav a {
     
     background-color:  rgb(66 103 178);
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
 #bgTwitter:hover{
     
     background-color:  #00acee;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
-#bgPinterest:hover{
+#bgGithub:hover{
     
-    background-color: #E60023;
+    background-color:#333;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
 #bgYoutube:hover{
     
     background-color: #FF0000;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
 #bgLinkedin:hover{
     
     background-color: #0e76a8;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
 #bgWpp:hover{
     
     background-color: #25D366;
     border-color: rgba(19, 0, 0 );
-    transform: scale(1);
+    transform: rotate(725deg) scale(1.2);
    
 }
 
@@ -362,7 +363,7 @@ p, ul li, ol li {
     background-color:#00acee ;
    
 }
-#pinterest:hover{
+#github:hover{
     border: none;
     border-radius: 3px;
     color:rgb(248, 236, 236);
@@ -370,7 +371,7 @@ p, ul li, ol li {
     font-size: 26px;
     margin-bottom: 1px;
     padding: 7px 12px;
-    background-color: #E60023;
+    background-color:#333;
     
 }
 #youtube:hover{
@@ -534,13 +535,13 @@ p, ul li, ol li {
 }
 
 #spin {
-    height: 40vmin;
+    height: 25vmin;
     pointer-events: none;
   }
   
   @media (prefers-reduced-motion: no-preference) {
     #spin {
-      animation: spin-spin infinite 20s linear;
+      animation: spin-spin infinite 15s linear;
     }
   }
   
@@ -550,7 +551,186 @@ p, ul li, ol li {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(300deg);
+      transform: rotate(360deg);
+    }
+  }
+
+
+    
+  #spin-ul {
+    height: 5vmin;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    #spin-ul {
+      animation: spin-spin infinite 2.5s linear;
     }
   }
   
+  
+  @keyframes spin-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  h5{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+    
+  h5{
+   font-size:20px;
+   font-family: serif;
+   color:whitesmoke;
+   text-align: center;
+   animation: animate 1.5s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+
+ /*spin ul main*/
+
+ #spin-ul-main {
+    height: 3vmin;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    #spin-ul-main {
+      animation: spin-spin infinite 5s linear;
+    }
+  }
+  
+  
+  @keyframes spin-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  #demo{
+
+    background-color: white;
+    color: rgba(19, 0, 0);
+    display: inline-block;
+    padding:  12px ;
+    margin: 10px;
+    font-family: Impact;
+    border-radius: 10px;
+    position: relative;
+ }
+
+
+ /* scrolledPage*/
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: whitesmoke;
+    color: #000;
+    display: block;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: whitesmoke;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: rgba(19, 0, 0);
+    width: 0%;
+  }
+
+  section{
+    text-align: center;
+    border: 1px solid rgba(19, 0, 0);;
+    width: 940px;
+	margin: 0 auto;
+  }
+
+  #mapCenter{
+
+    text-align: center;
+    margin: 10px ;
+
+}
+
+
+  #mapBtn{
+    
+    border: none;
+    border-radius: 3px;
+    color: rgb(247, 247, 247);
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 7px 12px;
+    background-color:rgba(19, 0, 0 ) ;
+    transition: ease-in-out 0.8s;
+   
+}
+
+#mapBtn:hover{
+
+    background-color:rgb(20, 14, 14) ;
+    transform:  scale(1.2);
+}
+#mapBtn:active{
+
+    background-color:rgb(68, 65, 65) ;
+    
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#demo p{
+
+    text-align: center;
+    margin: 10px;
+}

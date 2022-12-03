@@ -9,64 +9,68 @@ const audio6 = document.getElementById("audios5")
 
 
 function playAudio() {
-    
+
     audio1.play();
-    
+
 }
 function pauseAudio() {
-   
+
     audio1.pause();
-    
-}   
+
+}
 function playAudio2() {
-    
+
     audio2.play();
-    
+
 }
 function pauseAudio2() {
-   
+
     audio2.pause();
-    
-}   
+
+}
 function playAudio3() {
-    
+
     audio3.play();
-    
+
 }
 function pauseAudio3() {
-   
+
     audio3.pause();
-    
-}   
+
+}
 function playAudio4() {
-    
+
     audio4.play();
-    
+
 }
 function pauseAudio4() {
-   
+
     audio4.pause();
-    
-}   
+
+}
 function playAudio5() {
-    
+
     audio5.play();
-    
+
 }
 function pauseAudio5() {
-   
+
     audio5.pause();
-    
-}   
+
+}
 function playAudio6() {
-    
+
     audio6.play();
-    
+
 }
 function pauseAudio6() {
-   
+
     audio6.pause();
-    
-}   
+
+}
 
 
+
+function replace() {
+    location.replace("https://github.com/AdrianZapico")
+}
